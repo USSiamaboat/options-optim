@@ -15,8 +15,6 @@ I'm still working on the full writeup, but I've briefly summarized some of the k
 - Ran some preliminary backtests without much tuning and got lucky with my guessed parameters for some symbols
 
     - _**INTC (Intel Corporation)**_
-    
-        **Win Rate:** 3.41%
 
         **Final Cumulative Return:** 4646.27%
 
@@ -25,8 +23,6 @@ I'm still working on the full writeup, but I've briefly summarized some of the k
         ![alt text](README-images/INTC.png)
     
     - _**SPY (S&P 500 ETF)**_
-
-        **Win Rate:** 4.72%
 
         **Final Cumulative Return:** 2872.18%
 
