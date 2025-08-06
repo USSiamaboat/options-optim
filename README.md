@@ -1,2 +1,35 @@
-# Options Portfolio Optimization with Regression Analysis
+# Options Portfolio Optimization
 
+I'm still working on the full writeup, but I've briefly summarized some of the key accomplishments of this project below:
+
+- Goal was to become more familiar with financial data and some of the tools required for working with it through an options portfolio optimizer
+
+- Computed greeks and other features for models to use
+
+- Attempted to use multiple linear regression, but I wasn't able to get the results I wanted
+
+- Switched the task to classification and the model to XGBoost with much better success
+
+- Built an optimizer that allocates a more statistically diverse portfolio
+
+- Ran some preliminary backtests without much tuning and got lucky with my guessed parameters for some symbols
+
+    - _**INTC (Intel Corporation)**_
+    
+        **Win Rate:** 3.41%
+
+        **Final Cumulative Return:** 4646.27%
+
+        **Annualized Sharpe Ratio:** 1.83
+
+        ![alt text](README-images/INTC.png)
+    
+    - _**SPY (S&P 500 ETF)**_
+
+        **Win Rate:** 4.72%
+
+        **Final Cumulative Return:** 2872.18%
+
+        **Annualized Sharpe Ratio:** 1.99
+
+        ![alt text](README-images/SPY.png)
