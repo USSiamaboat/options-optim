@@ -1,6 +1,6 @@
 # Options Portfolio Optimization
 
-I'm still working on the full writeup, but I've briefly summarized some of the key accomplishments of this project below:
+I'm still working on the full writeup, but I've summarized some of the key accomplishments of this project below:
 
 - Goal was to become more familiar with financial data and some of the tools required for working with it through an options portfolio optimizer
 
@@ -29,3 +29,9 @@ I'm still working on the full writeup, but I've briefly summarized some of the k
         **Annualized Sharpe Ratio:** 1.99
 
         ![alt text](README-images/SPY.png)
+
+- A few things I'm still working on
+    
+    - Correct handling of buy/sell prices instead of just using mid price as the approximation (this likely noticably reduces the returns, but hopefully not by too much)
+
+    - Might be good to explore a bigger optimizer that can also manage options for different stocks
